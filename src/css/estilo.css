@@ -1,0 +1,202 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Oxanium', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.cabecalho{
+    background-image: url(../imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vh;
+    width: 81;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: solid #ffffff 3px;
+    margin: 5px;
+}
+
+.listas {
+    height: 30vh;    
+    display: flex;
+    align-items: end;
+    margin: 25px;
+    gap: 30px;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.cabecalho .logo{
+    max-width: 190px;
+}
+
+.listagem-dragonball{
+    display: flex;
+    justify-content: center;
+    background-color: #3CB371;
+    gap: 30px;
+    padding: 10px;
+    border: solid #ffffff;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.sessao-primaria{
+    background-color: #696969;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: solid #ffffff;
+}
+
+
+.lista-de-personagens {
+    background-color: #2F4F4F;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-top: 2px;
+}
+
+.personagem-selecionado{
+    background-color: #696969;
+    max-width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: solid #ffffff;
+}
+
+.lista-primaria{
+    background-color: #696969;
+    padding-bottom: 5px;
+}
+
+.lista-secundaria{
+    background-color: #696969;
+    margin-bottom: 5px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 2px;
+    border-bottom: solid #00ff0d;
+    max-width: 100%;
+}
+
+.guerreiros{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 3px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.viloes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+
+.informacoes{
+    background-color: #242222;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding-bottom: 5px;
+}
+
+.nome-personagem{
+     text-align: center;
+     justify-content: center;
+     color: #ffffff;
+     padding-bottom: 5px;
+     padding-top: 5px;
+     letter-spacing: 2px;
+}
+
+.descricao-personagem{
+    color: #ffffff;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    padding: 2.5px;
+    padding-top: 8px;
+    font-size: 16px;
+    border: solid 1.5px #00ff4c;
+    border-radius: 8px;
+    min-height: 132px;
+}
+
+.sessao-primaria .lista-primaria .lista-de-personagens{
+    border-radius: 10px;
+    border: solid;
+}
+
+.sessao-primaria .lista-secundaria .lista-de-personagens{
+    border-radius: 10px;
+    border: solid;
+}
+
+.selecionado{
+    box-shadow: 0px 0px 5px 8px #09ff00;
+    padding-bottom: 0px;
+    border-radius: 5px;
+}
+
+.personagem-grande{
+    width: 400px;
+    height: 400px;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.card .card-dbz{
+    border-radius: 10px;
+    border: solid 2px;
+}
+
+.rodape {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.lista-redes-sociais{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.redes {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.redes-socias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

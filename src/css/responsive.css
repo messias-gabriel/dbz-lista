@@ -1,0 +1,221 @@
+@media (max-width: 1178px) {
+    .listagem-dragonball {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sessao-primaria {
+        display: flex;
+        align-items: center;
+    }
+
+    .informacoes {
+        margin-bottom: 5px;
+    }
+
+    .personagem-selecionado {
+        max-width: 100%;
+        align-items: center;
+        
+    }
+
+    .personagem-grande {
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .personagem-dbz {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .listas {
+        height: 30vh;    
+        display: flex;
+        align-items: end;
+        margin: 25px;
+        gap: 20px;
+    }
+
+    a {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width: 580px) {
+
+    .cabecalho {
+        height: 170px;
+    }
+
+    .informacoes {
+        margin-bottom: 5px;
+    }
+
+    .titulo {
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    .guerreiros {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .viloes {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .card img {
+        width: 60px;
+    }
+
+    .listas {
+        height: 15vh;
+        margin-left: 8px;
+        padding-bottom: 10px;
+        gap: 10px;
+    }
+
+    a {
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+    .lista-de-personagens {
+        gap: 45px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .cabecalho {
+        height: 135px;
+        width: 95vw;
+        margin: 6px;
+    }
+
+    .lista-de-personagens {
+        gap: 8px;
+    }
+
+    .listagem-dragonball {
+        width: 90vw;
+    }
+    .personagem-grande {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .lista-de-personagens {
+        gap: 8px;
+    }
+
+    .listas {
+        height: 13vh;    
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+    }
+
+    a {
+        font-size: 8px;
+    }
+
+    li {
+        height: 9px;
+    }
+
+    .selecionado{
+        box-shadow: 0px 0px 5px 5px #09ff00;
+        padding-bottom: 0px;
+        border-radius: 5px;
+    }
+
+    .card img {
+        width: 50px;
+    }
+
+    .lista-redes-sociais{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .redes {
+        color: #ffffff;
+        font-size: 14px;
+    }
+    
+    .redes-socias {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contaos img {
+        width: 25px;
+    }
+}
+
+@media (max-width: 290px) {
+    .cabecalho {
+        height: 120px;
+        width: 94%;
+    }
+
+    .listas {
+        height: 13vh;    
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+    }
+
+    a {
+        font-size: 8px;
+    }
+
+    .lista-de-personagens {
+        gap: 4px;
+    }
+
+    li {
+        height: 9px;
+    }
+
+    .listagem-dragonball {
+        width: 87.5%;
+    }
+    .personagem-grande {
+        width: 200px;
+        height: 200px;
+    }
+
+    .card img {
+        width: 40px;
+    }
+
+    .informacoes {
+        font-size: 12px;
+    }
+
+    .informacoes .descricao-personagem {
+        font-size: 12px;
+    }
+
+    .redes {
+        color: #ffffff;
+        font-size: 12px;
+    }
+
+    .contaos img {
+        width: 18px;
+    }
+}
