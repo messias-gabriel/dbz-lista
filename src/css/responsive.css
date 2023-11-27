@@ -171,7 +171,7 @@
     }
 
     .listas {
-        height: 13vh;    
+        height: 12vh;    
         display: flex;
         flex-direction: column;
         justify-content: end;
@@ -182,12 +182,8 @@
         font-size: 8px;
     }
 
-    .lista-de-personagens {
-        gap: 4px;
-    }
-
     li {
-        height: 9px;
+        height: 5px;
     }
 
     .listagem-dragonball {
@@ -200,6 +196,7 @@
 
     .card img {
         width: 40px;
+        margin-top: 8px;
     }
 
     .informacoes {
@@ -217,9 +214,15 @@
 
     .contaos img {
         width: 18px;
+        margin-bottom: 20px;
     }
 
     .lista-de-personagens {
-        min-height: 22vh;
+        min-height: 25vh;
+        gap: 10px;
+    }
+
+    .lista-de-personagens {
+        width: 220px;
     }
 }
