@@ -117,7 +117,7 @@
     }
 
     .listas {
-        height: 13vh;    
+        height: 12vh;    
         display: flex;
         flex-direction: column;
         justify-content: end;
@@ -134,7 +134,6 @@
 
     .selecionado{
         box-shadow: 0px 0px 5px 5px #09ff00;
-        padding-bottom: 0px;
         border-radius: 5px;
     }
 
@@ -166,7 +165,7 @@
 
 @media (max-width: 290px) {
     .cabecalho {
-        height: 120px;
+        height: 125px;
         width: 94%;
     }
 
@@ -196,7 +195,7 @@
 
     .card img {
         width: 40px;
-        margin-top: 8px;
+        margin-top: 12px;
     }
 
     .informacoes {
@@ -218,8 +217,8 @@
     }
 
     .lista-de-personagens {
-        min-height: 25vh;
+        min-height: 30vh;
         gap: 10px;
-        width: 220px;
+        width: 225px;
     }
 }
