@@ -218,4 +218,8 @@
     .contaos img {
         width: 18px;
     }
+
+    .lista-de-personagens {
+        min-height: 22vh;
+    }
 }
