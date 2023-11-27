@@ -220,9 +220,6 @@
     .lista-de-personagens {
         min-height: 25vh;
         gap: 10px;
-    }
-
-    .lista-de-personagens {
         width: 220px;
     }
 }
