@@ -51,10 +51,62 @@
     }
 }
 
+@media (max-width: 393px) {
+    .personagem-dbz img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
 @media (max-width: 375px) {
     .personagem-dbz img {
         width: 280px;
         height: 280px;
+    }
+}
+
+@media (max-width: 280px) {
+
+    .cabecalho .listas{
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+
+    .listas a {
+        font-size: 8px;
+    }
+    .personagem-dbz img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card img {
+        width: 30px;
+    }
+
+    .contaos img {
+        width: 18px;
+        margin: -6px;
+    }
+
+    .informacoes {
+        font-size: 8px;
+    }
+
+    .informacoes .descricao-personagem {
+        font-size: 12px;
+    }
+
+    .lista-primaria {
+        font-size: 10px;
+    }
+
+    .lista-primaria .guerreiros {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .lista-secundaria .viloes {
+        font-size: 12px;
     }
 }
 
@@ -101,12 +153,5 @@
 
     .lista-secundaria .viloes {
         font-size: 8px;
-    }
-}
-
-@media (max-width: 393px) {
-    .personagem-dbz img {
-        width: 150px;
-        height: 150px;
     }
 }
