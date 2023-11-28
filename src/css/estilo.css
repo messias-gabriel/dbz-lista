@@ -42,7 +42,7 @@ a {
 .listagem-dragonball{
     display: flex;
     justify-content: center;
-    background-color: #3CB371;
+    background-color: #252525;
     gap: 30px;
     padding: 10px;
     border: solid #ffffff;
@@ -59,7 +59,6 @@ a {
     border-radius: 10px;
     border: solid #ffffff;
 }
-
 
 .lista-de-personagens {
     background-color: #2F4F4F;
